@@ -33,7 +33,7 @@ check_program   bison
 check_program   flex
 check_program   python3
 check_program   pip3
-check_program   gpgme-tool
+#check_program   gpgme-tool
 
 # macOS uses it's own fork of libtool
 if [ "$(uname)" != "Darwin" ]; then
