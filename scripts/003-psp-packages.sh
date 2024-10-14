@@ -3,7 +3,7 @@
 
 if [ -z "$LOCAL_PACKAGE_BUILD" ]; then
 	## Download the source code.
-	REPO_URL="https://github.com/pspdev/psp-packages"
+	REPO_URL="https://github.com/SergeyP-GA/psp-packages"
 	REPO_FOLDER="psp-packages"
 	BRANCH_NAME="master"
 	if test ! -d "$REPO_FOLDER"; then
