@@ -44,7 +44,7 @@ jobs:
           base-devel git make texinfo flex bison patch binutils mingw-w64-i686-gcc mpc-devel tar
           autotools gettext gettext-devel python3 python3-pip ncurses diffutils
           mingw-w64-i686-cmake mingw-w64-i686-make mingw-w64-i686-libogg
-          mingw-w64-x86_64-gpgme libgpgme libgpgme-devel
+          mingw-w64-x86_64-gpgme libgpgme libgpgme-devel mingw-w64-x86_64-ncurses
         update: true
 
     - name: Runs all the stages in the shell
