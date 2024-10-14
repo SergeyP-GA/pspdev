@@ -44,7 +44,7 @@ fi
 
 check_library   libarchive
 check_library   openssl         
-check_library   ncurses
+#check_library   ncurses
 
 if [ ${#missing_depends[@]} -ne 0 ]; then
     echo "Couldn't find dependencies:"
