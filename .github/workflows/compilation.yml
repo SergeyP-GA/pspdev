@@ -42,7 +42,7 @@ jobs:
         msystem: MINGW32
         install: |
           base-devel git make texinfo flex bison patch binutils mingw-w64-i686-gcc mpc-devel tar
-          autotools gettext gettext-devel python3 python3-pip ncurses diffutils gpgme-tool
+          autotools gettext gettext-devel python3 python3-pip ncurses diffutils mingw-w64-gpgme
           mingw-w64-i686-cmake mingw-w64-i686-make mingw-w64-i686-libogg
         update: true
 
